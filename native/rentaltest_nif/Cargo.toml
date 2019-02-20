@@ -1,0 +1,15 @@
+[package]
+name = "rentaltest_nif"
+version = "0.1.0"
+authors = []
+
+[lib]
+name = "rentaltest_nif"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "0.19.0"
+rustler_codegen = "0.19.0"
+lazy_static = "1.0"
+rental = "0.5.2"
